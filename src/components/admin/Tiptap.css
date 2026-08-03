@@ -1,0 +1,9 @@
+/* src/components/admin/Tiptap.css */
+
+.tiptap-menu-bar button {
+    @apply bg-slate-600 text-white px-3 py-1 rounded-md text-sm;
+}
+
+.tiptap-menu-bar button.is-active {
+    @apply bg-cyan-500;
+}
